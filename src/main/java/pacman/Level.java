@@ -29,7 +29,7 @@ class Level {
 	private static void initializeLevel0() {
 		levels[0] = new Level();
 		
-levels[0].background = new ImageIcon("src/main/resources/pictures/mazeLevel1.png").getImage();
+levels[0].background = new ImageIcon("src/main/resources/pacman/pictures/mazeLevel1.png").getImage();
 		
 		levels[0].dotColor = Color.red;
 		levels[0].fruitColor = Color.blue;
@@ -76,7 +76,7 @@ levels[0].background = new ImageIcon("src/main/resources/pictures/mazeLevel1.png
 	private static void initializelevel1() {
 		levels[1] = new Level();
 		
-levels[1].background = new ImageIcon("src/main/resources/pictures/mazeLevel2.png").getImage();
+levels[1].background = new ImageIcon("src/main/resources/pacman/pictures/mazeLevel2.png").getImage();
 		
 		levels[1].dotColor = Color.white;
 		levels[1].fruitColor = Color.blue;

@@ -20,7 +20,7 @@ import pacman.Ghost.State;
 
 public class Board extends JPanel implements ActionListener, KeyListener {
 	
-	Image introScreenImage = new ImageIcon("src/main/resources/pacmanIntro.png").getImage();
+	Image introScreenImage = new ImageIcon("src/main/resources/pacman/pictures/pacmanIntro.png").getImage();
 	
 	//Delays and countdowns
 	private final int REFRESH_DELAY = 40;

@@ -22,21 +22,21 @@ public class Pacman {
 	
 	Direction currentDirection, pressedDirection;
 	
-	Image imagePacmanStill = new ImageIcon("src/main/resources/pictures/pacmanpacman.png").getImage();
-	Image imageUp1 = new ImageIcon("src/main/resources/pictures/up1.png").getImage();
-	Image imageUp2 = new ImageIcon("src/main/resources/pictures/up2.png").getImage();
-	Image imageUp3 = new ImageIcon("src/main/resources/pictures/up3.png").getImage();
-	Image imageDown1 = new ImageIcon("src/main/resources/pictures/down1.png").getImage();
-	Image imageDown2 = new ImageIcon("src/main/resources/pictures/down2.png").getImage();
-	Image imageDown3 = new ImageIcon("src/main/resources/pictures/down3.png").getImage();
-	Image imageRight1 = new ImageIcon("src/main/resources/pictures/right1.png").getImage();
-	Image imageRight2 = new ImageIcon("src/main/resources/pictures/right2.png").getImage();
-	Image imageRight3 = new ImageIcon("src/main/resources/pictures/right3.png").getImage();
-	Image imageLeft1 = new ImageIcon("src/main/resources/left1.png").getImage();
-	Image imageLeft2 = new ImageIcon("src/main/resources/left2.png").getImage();
-	Image imageLeft3 = new ImageIcon("src/main/resources/left3.png").getImage();
-	Image imageRed = new ImageIcon("src/main/resources/red.png").getImage();
-	Image lifeEmpty = new ImageIcon("src/main/resources/pictures/lifeEmpty.png").getImage();
+	Image imagePacmanStill = new ImageIcon("src/main/resources/pacman/pictures/pacman.png").getImage();
+	Image imageUp1 = new ImageIcon("src/main/resources/pacman/pictures/up1.png").getImage();
+	Image imageUp2 = new ImageIcon("src/main/resources/pacman/pictures/up2.png").getImage();
+	Image imageUp3 = new ImageIcon("src/main/resources/pacman/pictures/up3.png").getImage();
+	Image imageDown1 = new ImageIcon("src/main/resources/pacman/pictures/down1.png").getImage();
+	Image imageDown2 = new ImageIcon("src/main/resources/pacman/pictures/down2.png").getImage();
+	Image imageDown3 = new ImageIcon("src/main/resources/pacman/pictures/down3.png").getImage();
+	Image imageRight1 = new ImageIcon("src/main/resources/pacman/pictures/right1.png").getImage();
+	Image imageRight2 = new ImageIcon("src/main/resources/pacman/pictures/right2.png").getImage();
+	Image imageRight3 = new ImageIcon("src/main/resources/pacman/pictures/right3.png").getImage();
+	Image imageLeft1 = new ImageIcon("src/main/resources/pacman/pictures/left1.png").getImage();
+	Image imageLeft2 = new ImageIcon("src/main/resources/pacman/pictures/left2.png").getImage();
+	Image imageLeft3 = new ImageIcon("src/main/resources/pacman/pictures/left3.png").getImage();
+	Image imageRed = new ImageIcon("src/main/resources/pacman/pictures/red.png").getImage();
+	Image lifeEmpty = new ImageIcon("src/main/resources/pacman/pictures/lifeEmpty.png").getImage();
 	Image currentImage;
 
 	

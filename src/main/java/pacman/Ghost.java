@@ -7,9 +7,9 @@ import javax.swing.ImageIcon;
 
 class Ghost{
 	
-	Image ghostImage = new ImageIcon("src/main/resources/pictures/ghost.png").getImage();
-	Image afraidImage = new ImageIcon("src/main/resources/pictures/ghostAfraid.png").getImage();
-	Image eyes = new ImageIcon("src/main/resources/pictures/eyes.png").getImage();
+	Image ghostImage = new ImageIcon("src/main/resources/pacman/pictures/ghost.png").getImage();
+	Image afraidImage = new ImageIcon("src/main/resources/pacman/pictures/ghostAfraid.png").getImage();
+	Image eyes = new ImageIcon("src/main/resources/pacman/pictures/eyes.png").getImage();
 	Image currentImage = ghostImage;
 	
 	private int speed = 4;
