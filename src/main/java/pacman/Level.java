@@ -49,6 +49,17 @@ levels[0].background = new ImageIcon("src/main/resources/pacman/pictures/mazeLev
 			
 			levels[0].numberOfGhosts = levels[0].ghostsInitialCoordinates[0].length;
 			
+		/* Maze construction explanation: 
+		There is a number for each cell of the maze. Each number is the sum of the elements that characterize the cell:
+		- a left wall is worth 1
+		- a wall above is worth 2
+		- a rigth wall is worth 4
+		- a wall beneath is worth 8
+		- a normal fruit it worth 16
+		- a special fruit is worth 32
+		For example, the number of a cell that contains a fruit but has no surrounding wall is 16
+		Number of a cell that contains a fruit (16) and has a wall on top (2) and on the left (1) is 19 (16 + 2 + 1)
+		*/
 		
 		levels[0].initialMazeData = new short[]
 				{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 

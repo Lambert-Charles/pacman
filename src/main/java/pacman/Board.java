@@ -190,24 +190,6 @@ public class Board extends JPanel implements ActionListener, KeyListener {
 		for(y = 0; y < SCREEN_SIZE; y += BLOCK_SIZE) {
 			
 			for(x = 0; x <  SCREEN_SIZE; x += BLOCK_SIZE) {
-				/*g.setColor(mazeColor);
-				g.setStroke(new BasicStroke(2));
-				
-				if((screenData[i] & 1) != 0) {
-					g.drawLine(x, y, x, y + BLOCK_SIZE-1); 
-				}
-				
-				if((screenData[i] & 2) != 0) {
-					g.drawLine(x, y, x + BLOCK_SIZE-1, y ); 
-				}
-				 
-				if((screenData[i] & 4) != 0) {
-					g.drawLine(x + BLOCK_SIZE-1, y, x + BLOCK_SIZE-1, y + BLOCK_SIZE-1); 
-				} 	
-				
-				if((screenData[i] & 8) != 0) {
-					g.drawLine(x, y +  BLOCK_SIZE-1, x + BLOCK_SIZE-1, y + BLOCK_SIZE-1); 
-				}*/
 				
 				//Fruit
 				if((screenData[i] & 16) != 0) {
